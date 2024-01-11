@@ -21,3 +21,8 @@ ul {
 li {
   padding: 1em;
 }
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
