@@ -40,9 +40,9 @@ li {
 }
 
 .projects-main-content {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 35%;
 }
 
 .hi {
@@ -108,8 +108,8 @@ button:hover {
 
 .portfolio-images {
   float: left;
-  max-width: 25em;
-  max-height: 18em;
+  max-width: 22em;
+  max-height: 16em;
   margin-right: 1em;
 }
 
@@ -124,10 +124,6 @@ i {
   padding: 0.25em;
 }
 
-@media (max-width: 2000px) {
-  .projects-main-content {
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 15%;
-  }
+.icon-links {
+  color: inherit;
 }
