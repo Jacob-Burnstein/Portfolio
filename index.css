@@ -34,6 +34,12 @@ li {
   margin-right: 45%;
 }
 
+.projects-main-content {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 35%;
+}
+
 .hi {
   font-size: 2.5em;
   margin: 0;
@@ -67,7 +73,6 @@ button {
 .projects-container {
   display: flex;
   flex-direction: column;
-  margin-left: 7%;
   /* justify-content: space-around; */
 
   h2 {
@@ -79,34 +84,25 @@ button {
     margin: 0;
   }
   p {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }
 
 .my-work-title {
   font-size: 6em;
-  margin-left: 7%;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5em;
-  margin-right: 25%;
   height: fit-content;
 }
 
-.image-and-description {
-  display: flex;
-  flex-direction: row;
-}
-
 .portfolio-images {
-  max-width: 50em;
-}
-
-.description {
-  padding-left: 2em;
+  float: left;
+  max-width: 20em;
+  max-height: 15em;
+  margin-right: 1em;
 }
 
 footer {
@@ -118,4 +114,12 @@ footer {
 }
 i {
   padding: 0.25em;
+}
+
+@media (max-width: 2000px) {
+  .projects-main-content {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
 }
