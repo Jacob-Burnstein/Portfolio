@@ -15,6 +15,11 @@ nav {
   top: 0;
 }
 
+.nav-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,7 +40,7 @@ li {
 }
 
 .projects-main-content {
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -68,38 +73,43 @@ button {
   /* border: solid #0f2047; */
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .projects-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
 
   h2 {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
   }
   h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
   }
   p {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
 .my-work-title {
-  font-size: 6em;
+  font-size: 5em;
+  margin-bottom: 0.5em;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
   height: fit-content;
+  margin-bottom: 2em;
 }
 
 .portfolio-images {
   float: left;
-  max-width: 20em;
-  max-height: 15em;
+  max-width: 25em;
+  max-height: 18em;
   margin-right: 1em;
 }
 
