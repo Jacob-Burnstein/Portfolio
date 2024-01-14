@@ -3,6 +3,6 @@
     "firebase": "^10.7.1"
   },
   "scripts": {
-    "build": "cp ./index.html dist/"
+    "build": "./portfolio/index.html"
   }
 }
