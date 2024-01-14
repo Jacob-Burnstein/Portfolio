@@ -157,4 +157,46 @@ i {
   color: inherit;
 }
 
+@media (max-width: 707px) {
+  body nav {
+    position: relative;
+  }
+  body .my-name {
+    font-size: 3em;
+  }
+  body .hi {
+    font-size: 1.5em;
+  }
+  body .intro {
+    font-size: 1.5em;
+  }
+  body button {
+    font-size: 1.5em;
+  }
+  body footer {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 1em;
+  }
+  body .my-work-title {
+    font-size: 3em;
+  }
+  body .projects-container img {
+    max-width: 15em;
+  }
+  body .projects-container .image-and-description {
+    display: flex;
+    flex-direction: column;
+  }
+  body .projects-container h2 {
+    font-size: 1.5em;
+  }
+  body .projects-container h3 {
+    font-size: 1em;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

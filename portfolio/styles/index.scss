@@ -163,3 +163,49 @@ i {
 .icon-links {
   color: inherit;
 }
+
+@media (max-width: 707px) {
+  body {
+    nav {
+      position: relative;
+    }
+    .my-name {
+      font-size: 3em;
+    }
+    .hi {
+      font-size: 1.5em;
+    }
+    .intro {
+      font-size: 1.5em;
+    }
+    button {
+      font-size: 1.5em;
+    }
+    footer {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      padding: 1em;
+    }
+    .my-work-title {
+      font-size: 3em;
+    }
+    .projects-container {
+      img {
+        max-width: 15em;
+      }
+      .image-and-description {
+        display: flex;
+        flex-direction: column;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1em;
+      }
+    }
+  }
+}
