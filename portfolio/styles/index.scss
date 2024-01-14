@@ -64,9 +64,6 @@ nav {
   }
 }
 
-.where-ive-been {
-}
-
 .where-im-going {
   margin-left: 40%;
 }
@@ -119,6 +116,16 @@ button:hover {
   p {
     font-size: 1.5em;
   }
+
+  a {
+    text-decoration: none;
+    color: #0f2047;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: #0f2047;
+  }
 }
 
 .my-work-title {
@@ -139,6 +146,7 @@ button:hover {
   max-width: 22em;
   max-height: 16em;
   margin-right: 1em;
+  margin-top: 1em;
 }
 
 footer {

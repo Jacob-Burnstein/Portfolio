@@ -111,6 +111,14 @@ button:hover {
 .projects-container p {
   font-size: 1.5em;
 }
+.projects-container a {
+  text-decoration: none;
+  color: #0f2047;
+}
+.projects-container a:hover {
+  text-decoration: underline;
+  text-decoration-color: #0f2047;
+}
 
 .my-work-title {
   font-size: 5em;
@@ -130,6 +138,7 @@ button:hover {
   max-width: 22em;
   max-height: 16em;
   margin-right: 1em;
+  margin-top: 1em;
 }
 
 footer {
