@@ -194,6 +194,12 @@ i {
   body .projects-container h3 {
     font-size: 1em;
   }
+  body .about-title-and-bio h1 {
+    font-size: 3em;
+  }
+  body .about-title-and-bio p {
+    font-size: 1.5em;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
