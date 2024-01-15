@@ -47,25 +47,22 @@ nav {
 .projects-main-content {
   margin-top: 10%;
   margin-left: 10%;
-  margin-right: 25%;
+  margin-right: 35%;
 }
 
-.about-main-content {
+.about-title-and-bio {
   margin-top: 10%;
   margin-left: 10%;
+  margin-right: 35%;
 
   h1 {
     font-size: 5em;
     margin: 0;
   }
 
-  li {
+  p {
     font-size: 2em;
   }
-}
-
-.where-im-going {
-  margin-left: 40%;
 }
 
 .hi {
@@ -130,7 +127,6 @@ button:hover {
 
 .my-work-title {
   font-size: 5em;
-  /* margin-bottom: 0.5em; */
   margin: 0;
 }
 
@@ -139,6 +135,7 @@ button:hover {
   flex-direction: column;
   height: fit-content;
   margin-bottom: 2em;
+  // border-bottom: solid #0f2047;
 }
 
 .portfolio-images {
@@ -147,6 +144,11 @@ button:hover {
   max-height: 16em;
   margin-right: 1em;
   margin-top: 1em;
+}
+
+.portfolio-images:hover {
+  max-width: 23em;
+  max-height: 16em;
 }
 
 footer {
@@ -196,6 +198,9 @@ i {
       img {
         max-width: 15em;
       }
+      .portfolio-images:hover {
+        max-width: 17em;
+      }
       .image-and-description {
         display: flex;
         flex-direction: column;
@@ -205,6 +210,14 @@ i {
       }
       h3 {
         font-size: 1em;
+      }
+    }
+    .about-title-and-bio {
+      h1 {
+        font-size: 3em;
+      }
+      p {
+        font-size: 1.5em;
       }
     }
   }

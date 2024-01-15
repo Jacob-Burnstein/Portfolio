@@ -44,23 +44,20 @@ nav li:hover {
 .projects-main-content {
   margin-top: 10%;
   margin-left: 10%;
-  margin-right: 25%;
+  margin-right: 35%;
 }
 
-.about-main-content {
+.about-title-and-bio {
   margin-top: 10%;
   margin-left: 10%;
+  margin-right: 35%;
 }
-.about-main-content h1 {
+.about-title-and-bio h1 {
   font-size: 5em;
   margin: 0;
 }
-.about-main-content li {
+.about-title-and-bio p {
   font-size: 2em;
-}
-
-.where-im-going {
-  margin-left: 40%;
 }
 
 .hi {
@@ -122,7 +119,6 @@ button:hover {
 
 .my-work-title {
   font-size: 5em;
-  /* margin-bottom: 0.5em; */
   margin: 0;
 }
 
@@ -139,6 +135,11 @@ button:hover {
   max-height: 16em;
   margin-right: 1em;
   margin-top: 1em;
+}
+
+.portfolio-images:hover {
+  max-width: 23em;
+  max-height: 16em;
 }
 
 footer {
@@ -187,6 +188,9 @@ i {
   body .projects-container img {
     max-width: 15em;
   }
+  body .projects-container .portfolio-images:hover {
+    max-width: 17em;
+  }
   body .projects-container .image-and-description {
     display: flex;
     flex-direction: column;
@@ -196,6 +200,12 @@ i {
   }
   body .projects-container h3 {
     font-size: 1em;
+  }
+  body .about-title-and-bio h1 {
+    font-size: 3em;
+  }
+  body .about-title-and-bio p {
+    font-size: 1.5em;
   }
 }
 
