@@ -127,7 +127,6 @@ button:hover {
 
 .my-work-title {
   font-size: 5em;
-  /* margin-bottom: 0.5em; */
   margin: 0;
 }
 
@@ -144,6 +143,11 @@ button:hover {
   max-height: 16em;
   margin-right: 1em;
   margin-top: 1em;
+}
+
+.portfolio-images:hover {
+  max-width: 23em;
+  max-height: 16em;
 }
 
 footer {
