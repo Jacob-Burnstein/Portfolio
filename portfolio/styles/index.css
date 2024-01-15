@@ -47,20 +47,17 @@ nav li:hover {
   margin-right: 25%;
 }
 
-.about-main-content {
+.about-title-and-bio {
   margin-top: 10%;
   margin-left: 10%;
+  margin-right: 35%;
 }
-.about-main-content h1 {
+.about-title-and-bio h1 {
   font-size: 5em;
   margin: 0;
 }
-.about-main-content li {
+.about-title-and-bio p {
   font-size: 2em;
-}
-
-.where-im-going {
-  margin-left: 40%;
 }
 
 .hi {
