@@ -188,6 +188,9 @@ i {
   body .projects-container img {
     max-width: 15em;
   }
+  body .projects-container .portfolio-images:hover {
+    max-width: 17em;
+  }
   body .projects-container .image-and-description {
     display: flex;
     flex-direction: column;

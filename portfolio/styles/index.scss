@@ -197,6 +197,9 @@ i {
       img {
         max-width: 15em;
       }
+      .portfolio-images:hover {
+        max-width: 17em;
+      }
       .image-and-description {
         display: flex;
         flex-direction: column;
