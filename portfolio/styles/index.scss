@@ -95,7 +95,8 @@ button {
 
 button:hover {
   cursor: pointer;
-  border: solid #0f2047;
+  border: solid #0f2047 2px;
+  color: #daa520;
 }
 
 .projects-container {
@@ -121,7 +122,7 @@ button:hover {
 
   a:hover {
     text-decoration: underline;
-    text-decoration-color: #daa520;
+    text-decoration-color: inherit;
   }
 }
 
@@ -134,8 +135,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   height: fit-content;
-  margin-bottom: 2em;
-  // border-bottom: solid #0f2047;
+  margin-bottom: 1em;
+  border-bottom: solid #0f2047 1px;
 }
 
 .portfolio-images {
@@ -147,14 +148,22 @@ button:hover {
 }
 
 .portfolio-images:hover {
-  max-width: 23em;
-  max-height: 16em;
+  max-width: calc(100% + 30%);
+}
+
+.album-cover:hover {
+  width: 18em;
+  max-height: 18em;
 }
 
 .headshot {
   aspect-ratio: fixed;
   width: 15em;
   border-radius: 50%;
+}
+
+.last-project {
+  border: none;
 }
 
 footer {
@@ -172,6 +181,9 @@ i {
   color: inherit;
 }
 
+.icon-links:hover {
+  color: #daa520;
+}
 @media (max-width: 707px) {
   body {
     nav {
@@ -203,9 +215,10 @@ i {
     .projects-container {
       img {
         max-width: 15em;
+        max-height: 15em;
       }
       .portfolio-images:hover {
-        max-width: 17em;
+        width: 17em;
       }
       .image-and-description {
         display: flex;
@@ -225,6 +238,9 @@ i {
       p {
         font-size: 1.5em;
       }
+    }
+    .headshot {
+      width: 10em;
     }
   }
 }

@@ -90,7 +90,8 @@ button {
 
 button:hover {
   cursor: pointer;
-  border: solid #0f2047;
+  border: solid #0f2047 2px;
+  color: #daa520;
 }
 
 .projects-container {
@@ -114,7 +115,7 @@ button:hover {
 }
 .projects-container a:hover {
   text-decoration: underline;
-  text-decoration-color: #daa520;
+  text-decoration-color: inherit;
 }
 
 .my-work-title {
@@ -126,7 +127,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   height: fit-content;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  border-bottom: solid #0f2047 1px;
 }
 
 .portfolio-images {
@@ -138,14 +140,22 @@ button:hover {
 }
 
 .portfolio-images:hover {
-  max-width: 23em;
-  max-height: 16em;
+  max-width: 130%;
+}
+
+.album-cover:hover {
+  width: 18em;
+  max-height: 18em;
 }
 
 .headshot {
   aspect-ratio: fixed;
   width: 15em;
   border-radius: 50%;
+}
+
+.last-project {
+  border: none;
 }
 
 footer {
@@ -162,6 +172,10 @@ i {
 
 .icon-links {
   color: inherit;
+}
+
+.icon-links:hover {
+  color: #daa520;
 }
 
 @media (max-width: 707px) {
@@ -193,9 +207,10 @@ i {
   }
   body .projects-container img {
     max-width: 15em;
+    max-height: 15em;
   }
   body .projects-container .portfolio-images:hover {
-    max-width: 17em;
+    width: 17em;
   }
   body .projects-container .image-and-description {
     display: flex;
@@ -212,6 +227,9 @@ i {
   }
   body .about-title-and-bio p {
     font-size: 1.5em;
+  }
+  body .headshot {
+    width: 10em;
   }
 }
 
