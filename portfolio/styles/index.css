@@ -32,7 +32,7 @@ nav li {
 }
 nav li:hover {
   text-decoration: underline;
-  text-decoration-color: #0f2047;
+  text-decoration-color: #daa520;
 }
 
 .main-content {
@@ -114,7 +114,7 @@ button:hover {
 }
 .projects-container a:hover {
   text-decoration: underline;
-  text-decoration-color: #0f2047;
+  text-decoration-color: #daa520;
 }
 
 .my-work-title {
@@ -140,6 +140,12 @@ button:hover {
 .portfolio-images:hover {
   max-width: 23em;
   max-height: 16em;
+}
+
+.headshot {
+  aspect-ratio: fixed;
+  width: 15em;
+  border-radius: 50%;
 }
 
 footer {
