@@ -4,6 +4,6 @@
     "sass": "^1.69.7"
   },
   "scripts": {
-    "build": "mkdir -p dist && cp ./portfolio/index.html dist/"
+    "build": "mkdir -p dist && cp ./portfolio/home.html dist/"
   }
 }
