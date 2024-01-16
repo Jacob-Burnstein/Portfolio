@@ -139,15 +139,6 @@ button:hover {
   margin-top: 1em;
 }
 
-.portfolio-images:hover {
-  max-width: 130%;
-}
-
-.album-cover:hover {
-  width: 18em;
-  max-height: 18em;
-}
-
 .headshot {
   aspect-ratio: fixed;
   width: 15em;
@@ -208,9 +199,6 @@ i {
   body .projects-container img {
     max-width: 15em;
     max-height: 15em;
-  }
-  body .projects-container .portfolio-images:hover {
-    width: 17em;
   }
   body .projects-container .image-and-description {
     display: flex;
