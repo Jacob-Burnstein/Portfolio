@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e5e5e5;
   color: #0f2047;
@@ -41,22 +45,24 @@ nav li:hover {
   margin-right: 35%;
 }
 
-.projects-content {
+.projects {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  padding-top: 10%;
 }
 
-.about-content {
+.about {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  padding-top: 10%;
 }
-.about-content h1 {
+.about h1 {
   font-size: 5em;
   margin: 0;
 }
-.about-content p {
+.about p {
   font-size: 2em;
 }
 
@@ -210,10 +216,10 @@ i {
   body .projects-container h3 {
     font-size: 1em;
   }
-  body .about-content h1 {
+  body .about h1 {
     font-size: 3em;
   }
-  body .about-content p {
+  body .about p {
     font-size: 1.5em;
   }
   body .headshot {

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e5e5e5;
   color: #0f2047;
@@ -38,22 +42,33 @@ nav {
     text-decoration-color: #daa520;
   }
 }
+
+// .main-content {
+//   margin-top: 10%;
+//   margin-left: 10%;
+//   margin-right: 35%;
+// }
 .home-content {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  background-color: red;
+  // padding-top: 10%;
+  //   height: 100vh;
 }
 
-.projects-content {
+.projects {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  padding-top: 10%;
 }
 
-.about-content {
+.about {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  padding-top: 10%;
 
   h1 {
     font-size: 5em;
@@ -219,7 +234,7 @@ i {
         font-size: 1em;
       }
     }
-    .about-content {
+    .about {
       h1 {
         font-size: 3em;
       }
