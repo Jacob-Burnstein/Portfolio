@@ -35,28 +35,28 @@ nav li:hover {
   text-decoration-color: #daa520;
 }
 
-.main-content {
+.home-content {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
 }
 
-.projects-main-content {
+.projects-content {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
 }
 
-.about-title-and-bio {
+.about-content {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
 }
-.about-title-and-bio h1 {
+.about-content h1 {
   font-size: 5em;
   margin: 0;
 }
-.about-title-and-bio p {
+.about-content p {
   font-size: 2em;
 }
 
@@ -210,10 +210,10 @@ i {
   body .projects-container h3 {
     font-size: 1em;
   }
-  body .about-title-and-bio h1 {
+  body .about-content h1 {
     font-size: 3em;
   }
-  body .about-title-and-bio p {
+  body .about-content p {
     font-size: 1.5em;
   }
   body .headshot {
