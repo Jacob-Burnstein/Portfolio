@@ -52,9 +52,7 @@ nav {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
-  background-color: red;
-  // padding-top: 10%;
-  //   height: 100vh;
+  height: 100vh;
 }
 
 .projects {
@@ -192,7 +190,19 @@ i {
 @media (max-width: 707px) {
   body {
     nav {
-      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      background-color: #e5e5e5;
+      width: 100vw;
+      border-bottom: solid #0f2047 1px;
+      margin: 0;
+      align-self: center;
+    }
+
+    .home-content {
+      margin-top: 30%;
+      height: 100vh;
     }
     .my-name {
       font-size: 3em;
@@ -206,21 +216,26 @@ i {
     button {
       font-size: 1.5em;
     }
+
     footer {
-      position: relative;
+      position: fixed;
+      width: 100%;
+      background-color: #e5e5e5;
       display: flex;
       justify-content: flex-end;
       padding-bottom: 0;
-      margin-bottom: 0;
-      padding: 1em;
+      padding-bottom: 1em;
+      border-top: solid #0f2047 1px;
     }
     .my-work-title {
+      margin-top: 20%;
       font-size: 3em;
     }
+
     .projects-container {
       img {
-        max-width: 15em;
-        max-height: 15em;
+        max-width: 12em;
+        max-height: 12em;
       }
 
       .image-and-description {
@@ -244,6 +259,7 @@ i {
     }
     .headshot {
       width: 10em;
+      margin-top: 25%;
     }
   }
 }
