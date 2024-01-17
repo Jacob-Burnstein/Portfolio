@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e5e5e5;
   color: #0f2047;
@@ -35,28 +39,31 @@ nav li:hover {
   text-decoration-color: #daa520;
 }
 
-.main-content {
+.home-content {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  height: 100vh;
 }
 
-.projects-main-content {
+.projects {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  padding-top: 10%;
 }
 
-.about-title-and-bio {
+.about {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 35%;
+  padding-top: 10%;
 }
-.about-title-and-bio h1 {
+.about h1 {
   font-size: 5em;
   margin: 0;
 }
-.about-title-and-bio p {
+.about p {
   font-size: 2em;
 }
 
@@ -171,7 +178,18 @@ i {
 
 @media (max-width: 707px) {
   body nav {
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: #e5e5e5;
+    width: 100vw;
+    border-bottom: solid #0f2047 1px;
+    margin: 0;
+    align-self: center;
+  }
+  body .home-content {
+    margin-top: 30%;
+    height: 100vh;
   }
   body .my-name {
     font-size: 3em;
@@ -186,19 +204,22 @@ i {
     font-size: 1.5em;
   }
   body footer {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    background-color: #e5e5e5;
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    padding: 1em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    border-top: solid #0f2047 1px;
   }
   body .my-work-title {
+    margin-top: 20%;
     font-size: 3em;
   }
   body .projects-container img {
-    max-width: 15em;
-    max-height: 15em;
+    max-width: 12em;
+    max-height: 12em;
   }
   body .projects-container .image-and-description {
     display: flex;
@@ -210,14 +231,15 @@ i {
   body .projects-container h3 {
     font-size: 1em;
   }
-  body .about-title-and-bio h1 {
+  body .about h1 {
     font-size: 3em;
   }
-  body .about-title-and-bio p {
+  body .about p {
     font-size: 1.5em;
   }
   body .headshot {
     width: 10em;
+    margin-top: 25%;
   }
 }
 
