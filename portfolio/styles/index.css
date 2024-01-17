@@ -181,11 +181,17 @@ i {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    background-color: #e5e5e5;
+    background-color: #cecece;
     width: 100vw;
     border-bottom: solid #0f2047 1px;
     margin: 0;
+    padding-bottom: 0;
+    padding-top: 0;
     align-self: center;
+  }
+  body nav li {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
   }
   body .home-content {
     margin-top: 30%;
@@ -206,7 +212,7 @@ i {
   body footer {
     position: fixed;
     width: 100%;
-    background-color: #e5e5e5;
+    background-color: #cecece;
     display: flex;
     justify-content: flex-end;
     padding-bottom: 0.25em;
