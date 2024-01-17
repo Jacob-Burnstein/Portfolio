@@ -10,15 +10,17 @@ function getHash() {
 
 function showContent() {
   const mainContent = document.getElementById("main-content");
-
+  let contentToShow = document.getElementById("home-content");
   let hash = getHash();
-  console.log(hash);
-  console.log("hash-content: ", `${hash}-content`);
-  const contentToShow = document.querySelector(`.${hash}-content`);
-  console.log("content to show: ", contentToShow);
+  if (hash) {
+    // console.log(hash);
+    // console.log("hash-content: ", `${hash}-content`);
+    contentToShow = document.getElementById(`${hash}-content`);
+    console.log("content to show: ", contentToShow);
+  }
 
   mainContent.innerHTML = contentToShow
-    ? contentToShow.innerHTML
+    ? contentToShow.outerHTML
     : "content not found";
 
   // mainContent.replaceChildren = contentToShow;
@@ -26,4 +28,4 @@ function showContent() {
 
 window.addEventListener("hashchange", showContent);
 
-render();
+showContent();
