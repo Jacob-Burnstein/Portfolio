@@ -48,7 +48,7 @@ nav li:hover {
 
 .projects {
   margin-left: 10%;
-  margin-right: 35%;
+  margin-right: 30%;
   padding-top: 5%;
 }
 
@@ -126,6 +126,7 @@ button:hover {
 .my-work-title {
   font-size: 5em;
   margin: 0;
+  margin-bottom: 0.25em;
 }
 
 .project-card {
@@ -142,6 +143,10 @@ button:hover {
   max-height: 16em;
   margin-right: 1em;
   margin-top: 1em;
+}
+
+.listHub-image {
+  border-radius: 10px;
 }
 
 .headshot {
@@ -191,6 +196,16 @@ i {
     padding-top: 0.25em;
     padding-bottom: 0.25em;
   }
+}
+@media (max-width: 707px) and (prefers-color-scheme: dark) {
+  body .nav-link {
+    color: #0f2047;
+  }
+  body .icon-links {
+    color: #0f2047;
+  }
+}
+@media (max-width: 707px) {
   body .home-content {
     margin-top: 30%;
     height: 100vh;
@@ -244,6 +259,15 @@ i {
   body .headshot {
     width: 10em;
     margin-top: 25%;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0f2047;
+    color: #e5e5e5;
+  }
+  .projects-container a {
+    color: #e5e5e5;
   }
 }
 
