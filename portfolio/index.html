@@ -17,6 +17,18 @@
       src="https://kit.fontawesome.com/367ff4af65.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      html {
+        visibility: hidden;
+        opacity: 0;
+      }
+    </style>
+    <style>
+      @font-face {
+        font-family: "Patrick";
+        src: url("./Patrick_Hand_SC/PatrickHandSC-Regular.ttf") format("woff2");
+      }
+    </style>
   </head>
   <body>
     <header class="header">
@@ -248,5 +260,11 @@
       </footer>
       <script src="./index.js"></script>
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.documentElement.style.visibility = "visible";
+        document.documentElement.style.opacity = "1";
+      });
+    </script>
   </body>
 </html>
