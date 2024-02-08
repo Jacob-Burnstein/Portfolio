@@ -189,12 +189,19 @@ i {
 }
 
 @media (max-width: 707px) {
+  body .header {
+    position: fixed;
+    height: 3em;
+    width: 100vw;
+    background-color: #293a61;
+  }
   body nav {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    width: 100vw;
+    width: fit-content;
     margin: 0;
+    background-color: inherit;
     padding-bottom: 0;
     padding-top: 0;
     align-self: center;
@@ -259,10 +266,11 @@ i {
 }
 .dark-mode-toggle {
   position: fixed;
-  padding: 1em;
+  padding: 0.85em;
 }
 
 .dark-mode-toggle:hover {
+  cursor: pointer;
   color: #daa520;
 }
 
