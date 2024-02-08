@@ -18,11 +18,11 @@ nav {
   right: 0;
   top: 0;
   margin-right: 0.5em;
+  transition: all 0.7s ease;
 
   .nav-link {
     color: inherit;
     text-decoration: inherit;
-    transition: all 0.7s ease;
   }
 
   ul {
@@ -104,6 +104,7 @@ button {
 button:hover {
   cursor: pointer;
   border: solid #0f2047 2px;
+  box-shadow: 2px 3px 8px #081731;
   color: #daa520;
 }
 
@@ -125,7 +126,8 @@ button:hover {
 
   a {
     text-decoration: none;
-    color: #0f2047;
+    color: inherit;
+    transition: all 0.7s ease;
   }
 
   a:hover {
@@ -164,6 +166,11 @@ button:hover {
   aspect-ratio: fixed;
   width: 15em;
   border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.headshot:hover {
+  border-radius: 30px;
 }
 
 .last-project {
@@ -194,9 +201,8 @@ i {
       display: flex;
       justify-content: flex-end;
       position: fixed;
-      background-color: #cecece;
+      // background-color: #0f2047;
       width: 100vw;
-      border-bottom: solid #0f2047 1px;
       margin: 0;
       padding-bottom: 0;
       padding-top: 0;
@@ -205,14 +211,6 @@ i {
       li {
         padding-top: 0.25em;
         padding-bottom: 0.25em;
-      }
-    }
-    @media (prefers-color-scheme: dark) {
-      .nav-link {
-        color: #0f2047;
-      }
-      .icon-links {
-        color: #0f2047;
       }
     }
 
@@ -234,9 +232,9 @@ i {
     }
 
     footer {
-      position: fixed;
+      position: relative;
       width: 100%;
-      background-color: #cecece;
+      // color: #cecece;
       display: flex;
       justify-content: flex-end;
       padding-bottom: 0.25em;
@@ -278,6 +276,15 @@ i {
       margin-top: 25%;
     }
   }
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  padding: 1em;
+}
+
+.dark-mode-toggle:hover {
+  color: #daa520;
 }
 
 .darkMode {
