@@ -26,7 +26,6 @@ nav {
   right: 0;
   top: 0;
   margin-right: 0.5em;
-  transition: all 0.7s ease;
 
   .nav-link {
     color: inherit;
@@ -205,16 +204,19 @@ i {
 }
 @media (max-width: 707px) {
   body {
+    .dark-mode-header {
+      color: #0f2047;
+    }
     nav {
-      display: flex;
-      justify-content: flex-end;
-      position: absolute;
-      width: fit-content;
+      position: fixed;
+      width: 110vw;
       margin: 0;
-      background-color: inherit;
+      background-color: #e5e5e5;
+      color: #0f2047;
       padding-bottom: 0;
       padding-top: 0;
       align-self: center;
+      border-bottom: solid #0f2047 2px;
 
       li {
         padding-top: 0.25em;
@@ -283,17 +285,19 @@ i {
       margin-top: 25%;
     }
   }
+  // .dark-mode-toggle {
+  //   color: #e5e5e5;
+  //   background-color: #f5f5f5;
+  // }
 }
 
 .dark-mode-toggle {
   position: fixed;
   justify-content: flex-start;
   padding: 0.85em;
+  color: inherit;
+  z-index: 1;
 }
-
-// .dark-mode-header {
-//   border: solid;
-// }
 
 .dark-mode-toggle:hover {
   cursor: pointer;
