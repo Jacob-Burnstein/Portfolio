@@ -12,6 +12,14 @@ body {
   font-family: "Patrick", cursive;
 }
 
+// .nav-bar {
+//   width: fit-content;
+//   background-color: red;
+//   height: fit-content;
+//   display: flex;
+//   justify-content: space-between;
+// }
+
 nav {
   list-style-type: none;
   position: fixed;
@@ -197,17 +205,10 @@ i {
 }
 @media (max-width: 707px) {
   body {
-    .header {
-      position: fixed;
-      // border: solid white;
-      height: 3em;
-      width: 100vw;
-      background-color: #293a61;
-    }
     nav {
       display: flex;
       justify-content: flex-end;
-      position: fixed;
+      position: absolute;
       width: fit-content;
       margin: 0;
       background-color: inherit;
@@ -241,7 +242,6 @@ i {
     footer {
       position: relative;
       width: 100%;
-      // color: #cecece;
       display: flex;
       justify-content: flex-end;
       padding-bottom: 0.25em;
@@ -287,9 +287,13 @@ i {
 
 .dark-mode-toggle {
   position: fixed;
+  justify-content: flex-start;
   padding: 0.85em;
-  // margin: 0;
 }
+
+// .dark-mode-header {
+//   border: solid;
+// }
 
 .dark-mode-toggle:hover {
   cursor: pointer;
