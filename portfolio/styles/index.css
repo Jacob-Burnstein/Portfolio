@@ -189,16 +189,10 @@ i {
 }
 
 @media (max-width: 707px) {
-  body .header {
-    position: fixed;
-    height: 3em;
-    width: 100vw;
-    background-color: #293a61;
-  }
   body nav {
     display: flex;
     justify-content: flex-end;
-    position: fixed;
+    position: absolute;
     width: fit-content;
     margin: 0;
     background-color: inherit;
@@ -266,6 +260,7 @@ i {
 }
 .dark-mode-toggle {
   position: fixed;
+  justify-content: flex-start;
   padding: 0.85em;
 }
 
