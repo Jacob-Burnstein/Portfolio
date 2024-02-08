@@ -26,7 +26,6 @@ nav {
   right: 0;
   top: 0;
   margin-right: 0.5em;
-  transition: all 0.7s ease;
 
   .nav-link {
     color: inherit;
@@ -206,15 +205,17 @@ i {
 @media (max-width: 707px) {
   body {
     nav {
-      display: flex;
-      justify-content: flex-end;
-      position: absolute;
-      width: fit-content;
+      position: fixed;
+      width: 110vw;
       margin: 0;
-      background-color: inherit;
+      background-color: #0f2047;
+      background-color: #e5e5e5;
+      color: #0f2047;
       padding-bottom: 0;
       padding-top: 0;
+      // mg-right: 1em;
       align-self: center;
+      // border: solid;
 
       li {
         padding-top: 0.25em;
@@ -283,12 +284,18 @@ i {
       margin-top: 25%;
     }
   }
+  // .dark-mode-toggle {
+  //   color: #e5e5e5;
+  //   background-color: #f5f5f5;
+  // }
 }
 
 .dark-mode-toggle {
   position: fixed;
   justify-content: flex-start;
   padding: 0.85em;
+  color: #0f2047;
+  z-index: 1;
 }
 
 // .dark-mode-header {
