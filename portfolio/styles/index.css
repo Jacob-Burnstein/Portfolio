@@ -18,11 +18,11 @@ nav {
   right: 0;
   top: 0;
   margin-right: 0.5em;
+  transition: all 0.7s ease;
 }
 nav .nav-link {
   color: inherit;
   text-decoration: inherit;
-  transition: all 0.7s ease;
 }
 nav ul {
   list-style-type: none;
@@ -98,6 +98,7 @@ button {
 button:hover {
   cursor: pointer;
   border: solid #0f2047 2px;
+  box-shadow: 2px 3px 8px #081731;
   color: #daa520;
 }
 
@@ -118,7 +119,8 @@ button:hover {
 }
 .projects-container a {
   text-decoration: none;
-  color: #0f2047;
+  color: inherit;
+  transition: all 0.7s ease;
 }
 .projects-container a:hover {
   text-decoration: underline;
@@ -155,6 +157,11 @@ button:hover {
   aspect-ratio: fixed;
   width: 15em;
   border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.headshot:hover {
+  border-radius: 30px;
 }
 
 .last-project {
@@ -186,9 +193,7 @@ i {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    background-color: #cecece;
     width: 100vw;
-    border-bottom: solid #0f2047 1px;
     margin: 0;
     padding-bottom: 0;
     padding-top: 0;
@@ -198,16 +203,6 @@ i {
     padding-top: 0.25em;
     padding-bottom: 0.25em;
   }
-}
-@media (max-width: 707px) and (prefers-color-scheme: dark) {
-  body .nav-link {
-    color: #0f2047;
-  }
-  body .icon-links {
-    color: #0f2047;
-  }
-}
-@media (max-width: 707px) {
   body .home-content {
     margin-top: 30%;
     height: 100vh;
@@ -225,9 +220,8 @@ i {
     font-size: 1.5em;
   }
   body footer {
-    position: fixed;
+    position: relative;
     width: 100%;
-    background-color: #cecece;
     display: flex;
     justify-content: flex-end;
     padding-bottom: 0.25em;
@@ -263,14 +257,18 @@ i {
     margin-top: 25%;
   }
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #0f2047;
-    color: #e5e5e5;
-  }
-  .projects-container a {
-    color: #e5e5e5;
-  }
+.dark-mode-toggle {
+  position: fixed;
+  padding: 1em;
+}
+
+.dark-mode-toggle:hover {
+  color: #daa520;
+}
+
+.darkMode {
+  background-color: #0f2047;
+  color: #e5e5e5;
 }
 
 /*# sourceMappingURL=index.css.map */
