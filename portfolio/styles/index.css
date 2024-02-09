@@ -33,6 +33,9 @@ nav ul {
 }
 nav li {
   padding: 0.5em;
+  text-decoration: none;
+  text-decoration-color: transparent;
+  transition: all 0.7s ease;
 }
 nav li:hover {
   text-decoration: underline;
@@ -60,6 +63,7 @@ nav li:hover {
 .about h1 {
   font-size: 5em;
   margin: 0;
+  text-shadow: 2px 3px 8px #555555;
 }
 .about p {
   font-size: 2em;
@@ -74,6 +78,7 @@ nav li:hover {
 .my-name {
   font-size: 5em;
   margin: 0em;
+  text-shadow: 2px 3px 8px #555555;
 }
 
 .intro {
@@ -96,7 +101,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  border: solid #0f2047 2px;
+  border: solid #0f2047 1px;
   box-shadow: 2px 3px 8px #081731;
   color: #daa520;
 }
@@ -118,8 +123,9 @@ button:hover {
 }
 .projects-container a {
   text-decoration: none;
+  text-decoration-color: transparent;
   color: inherit;
-  transition: all 0.7s ease;
+  transition: all 0.3s ease;
 }
 .projects-container a:hover {
   text-decoration: underline;
@@ -130,6 +136,7 @@ button:hover {
   font-size: 5em;
   margin: 0;
   margin-bottom: 0.25em;
+  text-shadow: 2px 3px 8px #555555;
 }
 
 .project-card {
@@ -181,6 +188,7 @@ i {
 
 .icon-links {
   color: inherit;
+  transition: all 0.3s ease;
 }
 
 .icon-links:hover {
@@ -200,7 +208,7 @@ i {
     padding-bottom: 0;
     padding-top: 0;
     align-self: center;
-    border-bottom: solid #0f2047 2px;
+    border-bottom: solid #0f2047 1px;
   }
   body nav li {
     padding-top: 0.25em;
@@ -263,9 +271,10 @@ i {
 .dark-mode-toggle {
   position: fixed;
   justify-content: flex-start;
-  padding: 0.85em;
+  padding: 1em;
   color: inherit;
   z-index: 1;
+  transition: all 0.3s ease;
 }
 
 .dark-mode-toggle:hover {
@@ -276,6 +285,15 @@ i {
 .darkMode {
   background-color: #0f2047;
   color: #e5e5e5;
+}
+.darkMode .my-name {
+  text-shadow: none;
+}
+.darkMode .my-work-title {
+  text-shadow: none;
+}
+.darkMode .about-me {
+  text-shadow: none;
 }
 
 /*# sourceMappingURL=index.css.map */
