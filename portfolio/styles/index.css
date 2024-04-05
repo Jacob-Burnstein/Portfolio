@@ -155,6 +155,10 @@ button:hover {
   margin-top: 1em;
 }
 
+.brianna-image {
+  border-radius: 5px;
+}
+
 .listHub-image {
   border-radius: 10px;
 }
