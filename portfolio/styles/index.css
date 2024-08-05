@@ -7,8 +7,6 @@ body {
   color: #0f2047;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
   font-family: "Montserrat";
 }
 
@@ -25,11 +23,8 @@ nav .nav-link {
 }
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0em;
   display: flex;
   justify-content: flex-end;
-  font-size: 1.5em;
 }
 nav li {
   padding: 0.5em;
@@ -61,12 +56,12 @@ nav li:hover {
   padding-top: 5%;
 }
 .about h1 {
-  font-size: 5em;
+  font-size: 2em;
   margin: 0;
-  text-shadow: 2px 3px 8px #555555;
 }
 .about p {
-  font-size: 2em;
+  font-size: 1em;
+  line-height: 130%;
 }
 
 .hi {
@@ -76,15 +71,15 @@ nav li:hover {
 }
 
 .my-name {
-  font-size: 5em;
+  font-size: 3em;
   margin: 0em;
-  text-shadow: 2px 3px 8px #555555;
 }
 
 .intro {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: 0.5em;
-  max-width: 20em;
+  max-width: 100%;
+  line-height: 130%;
 }
 
 button {
@@ -93,7 +88,7 @@ button {
   border-radius: 0.5em;
   border: 0.2em;
   font-family: inherit;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #0f2047;
   background-color: #f5f5f5;
   transition: all 0.3s ease;
@@ -111,15 +106,16 @@ button:hover {
   flex-direction: column;
 }
 .projects-container h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
 }
 .projects-container h3 {
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 0;
 }
 .projects-container p {
-  font-size: 1.5em;
+  font-size: 1em;
+  line-height: 130%;
 }
 .projects-container a {
   text-decoration: none;
@@ -133,10 +129,9 @@ button:hover {
 }
 
 .my-work-title {
-  font-size: 5em;
+  font-size: 2em;
   margin: 0;
   margin-bottom: 0.25em;
-  text-shadow: 2px 3px 8px #555555;
 }
 
 .project-card {
@@ -152,10 +147,9 @@ button:hover {
   max-width: 22em;
   max-height: 16em;
   margin-right: 1em;
-  margin-top: 1em;
 }
 
-.brianna-image {
+.square-image {
   border-radius: 5px;
 }
 
@@ -167,6 +161,7 @@ button:hover {
   aspect-ratio: fixed;
   width: 15em;
   border-radius: 50%;
+  padding-bottom: 1em;
   transition: all 0.5s ease;
 }
 
@@ -205,7 +200,7 @@ i {
   }
   body nav {
     position: fixed;
-    width: 110vw;
+    width: 100vw;
     margin: 0;
     background-color: #e5e5e5;
     color: #0f2047;
@@ -223,21 +218,20 @@ i {
     height: 100vh;
   }
   body .my-name {
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: none;
   }
   body .hi {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   body .intro {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   body button {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   body footer {
     position: relative;
-    width: 100%;
     display: flex;
     justify-content: flex-end;
     padding-bottom: 0.25em;
@@ -246,7 +240,7 @@ i {
   }
   body .my-work-title {
     margin-top: 20%;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: none;
   }
   body .projects-container img {
@@ -258,17 +252,19 @@ i {
     flex-direction: column;
   }
   body .projects-container h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   body .projects-container h3 {
     font-size: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
   }
   body .about h1 {
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: none;
   }
   body .about p {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   body .headshot {
     width: 10em;
