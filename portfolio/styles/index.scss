@@ -155,7 +155,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   height: fit-content;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   border-bottom: solid #0f2047 1px;
 }
 
@@ -164,6 +164,7 @@ button:hover {
   max-width: 22em;
   max-height: 16em;
   margin-right: 1em;
+  margin-bottom: 1em;
   // margin-top: 1em;
 }
 
@@ -233,7 +234,7 @@ i {
     }
 
     .home-content {
-      margin-top: 30%;
+      margin-top: 35%;
       height: 100vh;
     }
     .my-name {
@@ -260,7 +261,7 @@ i {
       border-top: solid #0f2047 1px;
     }
     .my-work-title {
-      margin-top: 20%;
+      margin-top: 30%;
       font-size: 2em;
       text-shadow: none;
     }
@@ -295,7 +296,7 @@ i {
     }
     .headshot {
       width: 10em;
-      margin-top: 25%;
+      margin-top: 35%;
     }
   }
 }
