@@ -4,19 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jacob Burnstein</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
-    <script
-      src="https://kit.fontawesome.com/367ff4af65.js"
-      crossorigin="anonymous"
-    ></script>
     <style>
       html {
         visibility: hidden;
@@ -25,10 +20,15 @@
     </style>
     <style>
       @font-face {
-        font-family: "Patrick";
-        src: url("./Patrick_Hand_SC/PatrickHandSC-Regular.ttf") format("woff2");
+        font-family: "Montserrat", sans-seriff;
+        src: url("./Montserrat/Montserrat-VariableFont_wght.ttf")
+          format("woff2");
       }
     </style>
+    <script
+      src="https://kit.fontawesome.com/367ff4af65.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="nav-bar">
@@ -57,6 +57,29 @@
       <section class="projects" id="projects">
         <h1 class="my-work-title">My Work</h1>
         <section class="projects-container">
+          <!-- KEIGERATOR -->
+          <article class="project-card">
+            <section class="image-and-description">
+              <a href="https://keigerator.com"
+                ><img
+                  src="./Portfolio-images/Screenshot-Keigerator.png"
+                  alt="Keigerator Screenshot"
+                  class="portfolio-images square-image"
+              /></a>
+              <section class="description">
+                <h3>Web Developer</h3>
+                <a href="https://keigerator.com">
+                  <h2>Keigerator - The Tiny Tap Truck</h2>
+                </a>
+                <p>
+                  This website is for a local business owner, who converted
+                  1990's Japanese Kei Truck into a mobile bar-for-hire service.
+                  It was fun to craft this site in line with this client's goals
+                  for a digital business card, suitable for "scrolling culture."
+                </p>
+              </section>
+            </section>
+          </article>
           <!-- Brianna's Website -->
           <article class="project-card">
             <section class="image-and-description">
@@ -64,7 +87,7 @@
                 ><img
                   src="./Portfolio-images/Briannas_site.png"
                   alt="Freelance professional website"
-                  class="portfolio-images brianna-image"
+                  class="portfolio-images square-image"
               /></a>
               <section class="description">
                 <h3>Web Developer</h3>
