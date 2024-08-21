@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 
 body {
@@ -7,7 +9,6 @@ body {
   color: #0f2047;
   display: flex;
   flex-direction: column;
-  font-family: "Montserrat";
 }
 
 nav {
@@ -38,9 +39,9 @@ nav li:hover {
 }
 
 .home-content {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 10%;
-  margin-right: 35%;
+  margin-right: 50%;
   height: 100vh;
 }
 
@@ -60,8 +61,8 @@ nav li:hover {
   margin: 0;
 }
 .about p {
-  font-size: 1em;
-  line-height: 130%;
+  font-size: 1.15em;
+  line-height: 150%;
 }
 
 .hi {
@@ -79,7 +80,7 @@ nav li:hover {
   font-size: 1.5em;
   margin-top: 0.5em;
   max-width: 100%;
-  line-height: 130%;
+  line-height: 150%;
 }
 
 button {
@@ -114,8 +115,8 @@ button:hover {
   margin: 0;
 }
 .projects-container p {
-  font-size: 1em;
-  line-height: 130%;
+  font-size: 1.15em;
+  line-height: 150%;
 }
 .projects-container a {
   text-decoration: none;
@@ -215,7 +216,8 @@ i {
     padding-bottom: 0.25em;
   }
   body .home-content {
-    margin-top: 35%;
+    margin-top: 45%;
+    margin-right: 35%;
     height: 100vh;
   }
   body .my-name {

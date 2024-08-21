@@ -1,5 +1,9 @@
 html {
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  // font-weight: <weight>;
+  // font-style: normal;
 }
 
 body {
@@ -9,7 +13,6 @@ body {
   flex-direction: column;
   // min-height: 100vh;
   // margin: 0;
-  font-family: "Montserrat";
 }
 
 nav {
@@ -47,9 +50,9 @@ nav {
 }
 
 .home-content {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 10%;
-  margin-right: 35%;
+  margin-right: 50%;
   height: 100vh;
 }
 
@@ -71,8 +74,8 @@ nav {
   }
 
   p {
-    font-size: 1em;
-    line-height: 130%;
+    font-size: 1.15em;
+    line-height: 150%;
   }
 }
 
@@ -92,7 +95,7 @@ nav {
   font-size: 1.5em;
   margin-top: 0.5em;
   max-width: 100%;
-  line-height: 130%;
+  line-height: 150%;
 }
 
 button {
@@ -127,8 +130,8 @@ button:hover {
     margin: 0;
   }
   p {
-    font-size: 1em;
-    line-height: 130%;
+    font-size: 1.15em;
+    line-height: 150%;
   }
 
   a {
@@ -234,7 +237,8 @@ i {
     }
 
     .home-content {
-      margin-top: 35%;
+      margin-top: 45%;
+      margin-right: 35%;
       height: 100vh;
     }
     .my-name {
