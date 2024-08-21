@@ -55,6 +55,7 @@ nav li:hover {
   margin-left: 10%;
   margin-right: 35%;
   padding-top: 5%;
+  height: 100vh;
 }
 .about h1 {
   font-size: 2em;
