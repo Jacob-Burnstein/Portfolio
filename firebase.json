@@ -5,5 +5,12 @@
   "hosting": {
     "public": "portfolio",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-  }
+  },
+  "redirects": [
+    {
+      "source": "/**",
+      "destination": "https://www.linkedin.com/in/jacob-burnstein/",
+      "type": 301
+    }
+  ]
 }
